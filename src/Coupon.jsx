@@ -2,7 +2,7 @@ import React from 'react'
 
 const Coupon = (props) => {
     return (
-        <div className={`coupon border border-3-grey shadow rounded-xl p-2`}>
+        <div className={`coupon border-6  shadow rounded-xl p-2 ${props.type == "redeem" ? "border-green" : props.type == "due" ? "border-red" : props.type == "scanned" ? "border-violet" : props.type == "acknowledged" ? "border-blue" : props.type == "future" ? "border-black" : props.type == "expired" ? "border-orange-400" :"border-grey"}`}>
             <div className="grid grid-cols-2 mb-2">
                 <div className="left-part">
                     <p className='text-base'><b>Bhoomika Arora</b></p>

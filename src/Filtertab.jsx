@@ -4,8 +4,7 @@ const Filtertab = () => {
   return (
     <div className='container mx-auto p-2 mt-2'>
       <div className="flex justify-between items-center w-full">
-        <button className='shadow px-4 py-1 rounded-xl'>Due</button>
-        <button className='shadow px-4 py-1 rounded-xl'>Redeem</button>
+        <button className='shadow px-4 py-1 rounded-xl'>All</button>
         <button>
           <svg
             xmlns="http://www.w3.org/2000/svg"
