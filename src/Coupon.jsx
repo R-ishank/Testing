@@ -2,7 +2,7 @@ import React from 'react'
 
 const Coupon = (props) => {
     return (
-        <div className={`coupon border border-1-grey shadow rounded-xl p-2`}>
+        <div className={`coupon border border-3-grey shadow rounded-xl p-2`}>
             <div className="grid grid-cols-2 mb-2">
                 <div className="left-part">
                     <p className='text-base'><b>Bhoomika Arora</b></p>
@@ -12,11 +12,11 @@ const Coupon = (props) => {
                     <p className='text-xs'>Delhi-110032</p>
                 </div>
                 <div className="right-part text-right">
-                    <p className={`text-black ${props.type == "redeem" ? "text-green-400" : props.type == "due" ? "text-red-600" : props.type == "scanned" ? "text-violet-400" : props.type == "acknowledged" ? "text-blue-400" : props.type == "future" ? "text-black-400" : props.type == "expired" ? "text-red-400" :  " text-base" }`}><b>EKT0034244X</b></p>
+                    <p className={`text-black ${props.type == "redeem" ? "text-green-400" : props.type == "due" ? "text-red-600" : props.type == "scanned" ? "text-violet-400" : props.type == "acknowledged" ? "text-blue-400" : props.type == "future" ? "text-black-400" : props.type == "expired" ? "text-orange-400" :  " text-base" }`}><b>EKT0034244X</b></p>
                     <p className='text-xs'>OCT 2023</p>
                     <br />
                     <p className='text-xs'><b>THE TIMES OF INDIA</b></p>
-                    <p className='text-red-400 text-xs'><b>Due on 09/03/2022</b></p>
+                    <p className={`text-black ${props.type == "redeem" ? "text-green-400" : props.type == "due" ? "text-red-600" : props.type == "scanned" ? "text-violet-400" : props.type == "acknowledged" ? "text-blue-400" : props.type == "future" ? "text-black-400" : props.type == "expired" ? "text-orange-400" :"text-xs"}`}><b>Due on 09/03/2022</b></p>
                 </div>
             </div>
             <hr />

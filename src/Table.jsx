@@ -22,8 +22,8 @@ const Table = () => {
             <tr>
                 <td className='text-black'>Future</td>
                 <td className='border-r text-black'>14</td>
-                <td className='text-red-400'>Expired</td>
-                <td className='text-red-400'>0</td>
+                <td className='text-orange-400'>Expired</td>
+                <td className='text-orange-400'>0</td>
             </tr>
         </tbody>
       </table>
