@@ -1,6 +1,6 @@
 import React from 'react'
 import Coupon from './Coupon'
-
+import Table from './Table'
 const App = () => {
   return (
     <div>
@@ -12,7 +12,7 @@ const App = () => {
         </svg>
       </div>
 
-
+      <Table/>
 
       {/* CARDS */}
       <div className="container mx-auto p-2">
