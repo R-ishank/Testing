@@ -7,7 +7,7 @@
     background-color: #eee;
     color: #373737;
     cursor: pointer;
-    padding: 10px;
+    padding: 18px;
     width: 100%;
     border: none;
     text-align: left;
@@ -37,12 +37,3 @@
   .option select {
     margin: 10px;
   }
-  .option:hover {
-    background-color: #f4f1f1
-  }
-  .crossclose {
-    margin-top: 10px;
-    margin-right: 5px;
-    width: 20px;
-    height: 20px;
-}
