@@ -46,3 +46,16 @@
     width: 20px;
     height: 20px;
 }
+
+.accordion:before {
+  content: url(../public/arrow.png);
+  float: right;
+  transition: all 0.5s;
+  position: absolute;
+  right: 9px;
+}
+button.accordion.active:before {
+  -webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
