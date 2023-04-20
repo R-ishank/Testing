@@ -23,7 +23,7 @@ const Accordianfilter = () => {
     <div className="container mx-auto">
       <div className="fontfamilyhome">
         <Header />
-        <div className="border-2  shadow rounded-xl">
+        <div className="border-2  shadow rounded-xl ">
           <div className="text-red-600 flex justify-between justify-items-center">
             <p className="p-2">Filter</p>
             <img className="crossclose" src="/close.png"></img>
@@ -32,13 +32,7 @@ const Accordianfilter = () => {
           <button className="accordion">Dealer</button>
           <div className="panel">
             <div className="option">
-              <option className="">Rishank</option>
-            </div>
-            <div className="option">
-              <option>jatin</option>
-            </div>
-            <div className="option">
-              <option>Rishank1</option>
+              <option className="">Kailash Sharma</option>
             </div>
           </div>
 
@@ -154,8 +148,8 @@ const Accordianfilter = () => {
           </div>
         </div>
       <div className="p-5 flex justify-between justify-items-center">
-        <button class="border-solid border-2 bg-sky-500/100 p-2 border-rose-600">Submit </button>
-        <button class="border-solid border-2 p-2 border-rose-600">Reset</button>
+        <button className="rounded-lg border-2 border-yellow-900 py-2 px-10">Reset</button>
+        <button className="rounded-lg border-2 border-emerald-700 py-2 px-10">Submit </button>
         </div>
       </div>
     </div>

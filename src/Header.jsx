@@ -1,9 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="container mx-auto p-2 flex justify-between items-center bg-[url('/bgtest.png')]">
+    <div className=" mx-auto p-2 flex justify-between items-center bg-[url('/bgtest.png')]">
 
       <img
         src="/logo.png"
